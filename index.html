@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Week2</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>UMKM Laundry</h1>
+        <p>Bisnis UMKM dengan AI</p>
+    </header>
+    
+    <nav>
+        <a href="#profil">Profil</a>
+        <a href="#pesanan">Pesanan</a>
+    </nav>
+    
+    <section id="profil">
+        <div class="profil-text">
+            <h2>Profile</h2>
+            <p>Kami menyediakan layanan laundry berkualitas dengan harga terjangkau. Dengan pengalaman bertahun-tahun, kami siap melayani kebutuhan laundry Anda.</p>
+        </div>
+        <img src="images.jpeg" alt="Laundry" width="160">
+    </section>
+
+    <section class="daftar-fitur">
+    </section>
+
+    <section id="pesanan">
+        <h3>Formulir Pemesanan</h3>
+        <p>Silakan isi formulir di bawah ini.</p>
+        <form id="formpesanan" action="#" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" id="nama" required>
+            
+            <fieldset>
+                <legend>Pilih Pesanan</legend>
+                <input type="radio" name="jenis_pesanan" id="kilat" value="kilat" required>
+                <label for="kilat">Kilat</label>
+                
+                <input type="radio" name="jenis_pesanan" id="standard" value="standard">
+                <label for="standard">Standard</label>
+            </fieldset>
+            
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+</body>
+</html>
